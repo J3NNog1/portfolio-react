@@ -1,9 +1,11 @@
+import AboutMe from '../assets/about-me-pic.jpg'
+
 
 const About = (props) => {
     return (
       <div ref={props.aboutRef} className='aboutSection'>
         <h1>About Me</h1>
-        {/* <img className='profileImage' src={Picture} alt="jennifer-profile" /> */}
+        <img className='profileImage' src={AboutMe} alt="jennifer-profile" />
         <div className='aboutDesc'>
           <p>
             I am an aspiring software engineer and countinue to develop my skills both creatively and professionally. I would like to continue growing and learning all while keeping up with industry knowledge. My background in Business and as collegiate athlete makes me a business savy & team player.    </p>
