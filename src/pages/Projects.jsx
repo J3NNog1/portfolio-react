@@ -20,8 +20,8 @@ const Projects = (props) =>[
   },
   {
     title:"Cooler Cars and Motorcycles",
-    description:"Plan.e is an app that allows users to create trip plans using crowd-sourced user activities. By making travelling a collaborative process, we want to make the experience for each of our users great. Technologies: React, Full-Stack, CSS, JS, HTML",
-    image:CoolerCarsAndMotorcycles,
+    description:"Cooler Cars and Motorcycles is a full CRUD application where users can add as many vehicles as they like. You can add w",
+    image: CoolerCarsAndMotorcycles,
     repositoryLink:"https://github.com/J3NNog1/cooler-cars-motorcycles.git",
     deploymentLink:"flyio-cooler-cars-motorcycles.fly.dev"
   },
