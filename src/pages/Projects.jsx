@@ -10,7 +10,7 @@ function Projects() {
     <>
       <h1>Projects</h1>
       <div className={styles.list}>
-        <ProjectsList projects={projects} />
+        <ProjectsList projects={projects}  />
       </div>
     </>
   )

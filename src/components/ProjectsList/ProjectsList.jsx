@@ -1,4 +1,4 @@
-// import ProjectCard from '../ProjectCard/ProjectCard'
+// import ProjectPreview from '../ProjectPreview/ProjectPreview'
 
 
 
@@ -11,8 +11,9 @@ const ProjectsList = (props) => {
         
           <li key={project.title}>
             <p>{project.description}</p>
+            <p>{project.image}</p>
             <p>Repository link: {project.repositoryLink}</p>
-            <p>Deployment Link: {project.depolymentLink}</p>
+            <p>Deployment Link: {project.deploymentLink}</p>
           </li>
         )}
       </ul>
