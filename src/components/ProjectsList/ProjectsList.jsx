@@ -1,21 +1,23 @@
-
-import ProjectCard from '../ProjectCard/ProjectCard'
-
+// import ProjectCard from '../ProjectCard/ProjectCard'
 
 
-function ProjectsList (props) {
+
+const ProjectsList = (props) => {
   return (
-    <>
-      
-        <div className={ProjectsList}>
-          {props.projects.map((project, idx) =>
-          <ProjectCard title={project.title} image={project.image} key={idx} />
+    <div>
+      <h3>{props.title}</h3>
+      <ul>
+        {props.projects.map(project =>
+        
+          <li key={project.title}>
+            <p>{project.description}</p>
+            <p>Repository link: {project.repositoryLink}</p>
+            <p>Deployment Link: {project.depolymentLink}</p>
+          </li>
         )}
-        </div>
-    
-    </>
+      </ul>
+    </div>
   )
 }
 
-
-export default ProjectsList
+export default ProjectsList;

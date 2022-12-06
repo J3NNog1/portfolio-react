@@ -9,7 +9,7 @@ const NavBar = () => {
         className="App-logo"
         alt="logo"
       /> */}
-      <Link to='/'>Jennifer Juarez</Link>
+      {/* <Link to='/'>Jennifer Juarez</Link> */}
       <Link to="/about">About</Link>
       <Link to="/contact">Contact Info</Link>
       <Link to="/home">Home</Link>

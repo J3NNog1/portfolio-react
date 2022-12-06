@@ -1,13 +1,17 @@
 import { projects } from "../data/projects";
 import ProjectsList from "../components/ProjectsList/ProjectsList";
+import styles from './Projects.module.css'
 
 
 
-function Projects () {
+function Projects() {
+
   return (
     <>
-      <h1>My Work</h1>
-      <ProjectsList projects={projects}/>
+      <h1>Projects</h1>
+      <div className={styles.list}>
+        <ProjectsList projects={projects} />
+      </div>
     </>
   )
 }
