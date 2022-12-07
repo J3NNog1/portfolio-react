@@ -2,8 +2,9 @@ body {
   padding: 10px;
 }
 
-img {
-  
+#profileImage img{
+  width: 50%;
+  height:auto;
 }
 
 .App {

@@ -7,7 +7,7 @@
 const projects = [
   {
     title:"Tic Tac Toe ",
-    description:"This Tic Tac Toe app is an original take on the original Tic Tac Toe game we all love playing with friends and family. You will be playing against a partner (you will need another person to play this game, I have not yet added computer funtionality). Play Tic Tac Toe as you orginally would with the original board game. Best of luck players!",
+    description:"This Tic Tac Toe app is an original take on the original Tic Tac Toe game we all love playing with friends and family. You will be playing against a partner (you will need another person to play this game, I have not yet added computer funtionality). Play Tic Tac Toe as you orginally would with the original board game rules. Best of luck players!",
     image:"tictactoe.png",
     repositoryLink:"https://github.com/J3NNog1/ttt-weekend",
     deploymentLink:"https://jenn-juarez-tic-tac-toe.netlify.app/",

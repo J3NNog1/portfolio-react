@@ -1,5 +1,4 @@
 import Headshot from '../assets/headshot.jpg'
-// import styles from '../Home.module.css'
 
 
 const Home = (props) => {

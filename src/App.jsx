@@ -5,6 +5,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
+import ProjectDetails from './pages/ProjectDetails'
 import Resume from './pages/Resume'
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
         <Route 
           path='/resume'
           element={<Resume />}
+        />
+        <Route 
+        path='projects/:projectDetails' 
+        element={<ProjectDetails />} 
         />
       </Routes>
     </>
